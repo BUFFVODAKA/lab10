@@ -1,7 +1,18 @@
 #include<iostream>
 using namespace std;
 
-//Write the function printO() here
+void printO(int x,int y){
+	if(x > 0 && y > 0){
+		for(int i = 0;i<x;i++){
+			for(int n = 0;n < y;n++){
+				cout << "O";
+			}
+			cout << "\n";
+		}
+	}else{
+		cout << "Invalid input";
+	}
+}
 
 int main(){
 	
